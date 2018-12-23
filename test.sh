@@ -2,7 +2,7 @@
 
 LASTMIRROR="$1"
 
-if test "$LASTMIRROR" != "" ;then
+if [ "$LASTMIRROR" != "" ];then
   mirror="$LASTMIRROR"
 fi
 export mirror
